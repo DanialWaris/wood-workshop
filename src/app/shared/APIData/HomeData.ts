@@ -73,3 +73,13 @@ export const whatWeDoData = [
       'Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document.',
   },
 ]
+
+export const latestProjectsData = [
+  'All',
+  'Indoor Furniture',
+  'Renovation Of House',
+  'Hardwood Flooring',
+  'Wood Supply',
+  'Furniture Manufacturing',
+  'Repairing',
+]

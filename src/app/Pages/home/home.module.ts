@@ -1,21 +1,32 @@
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
-
+import { HttpClientModule} from '@angular/common/http';
 import { HomeRoutingModule } from './home-routing.module'
 import { HomeComponent } from './home.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 import { SharedModule } from './../../shared/shared.module'
 import { HeaderComponent } from 'src/app/Components/HomeComponents/header/header.component'
-import { HorizontalSliderModule } from "angular2-horizontal-slider";
+import { HorizontalSliderModule } from 'angular2-horizontal-slider'
 // import { MDBBootstrapModule, DropdownModule } from 'angular-bootstrap-md'
 // import { CarouselModule } from 'angular2-carousel'
 import { ExperienceComponent } from './../../Components/HomeComponents/experience/experience.component'
 import { WhatWeDoComponent } from 'src/app/Components/HomeComponents/what-we-do/what-we-do.component'
+import { LatestProjectsComponent } from './../../Components/HomeComponents/latest-projects/latest-projects.component'
+// import { NgxGalleryModule } from 'ngx-gallery';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 
 @NgModule({
-  declarations: [HomeComponent, HeaderComponent, ExperienceComponent, WhatWeDoComponent],
+  declarations: [
+    HomeComponent,
+    HeaderComponent,
+    ExperienceComponent,
+    WhatWeDoComponent,
+    LatestProjectsComponent,
+  ],
   imports: [
     HorizontalSliderModule,
+    NgxGalleryModule,
+    HttpClientModule,
     SharedModule,
     CommonModule,
     NgbModule,

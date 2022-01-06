@@ -1,0 +1,33 @@
+<div class="main">
+  <div class="container py-5">
+    <div class="mb-10">
+      <h1 class="font-bold text-2xl">OUR LATEST PROJECTS</h1>
+      <div
+        class="w-20 border-b-3 rounded-full border-yellow_700 mb-3 mt-2"
+      ></div>
+    </div>
+    <div class="mb-5 mt-2">
+      <ul class="flex items-center flex-wrap">
+        <li *ngFor="let data of latestProjectsData" class="text-gray_400 flex flex-row items-center my-2">
+          <a
+            [ngClass]="
+              tab === data ? 'text-yellow_600 hover:text-yellow_600' : 'hover:text-yellow_600'
+            "
+            class="cursor-pointer"
+            (click)="tab = data"
+          >
+            {{ data }}
+          </a>
+          <span class="mx-4">/</span>
+        </li>
+      </ul>
+    </div>
+    <div *ngIf="tab === 'All'" class="gallery-wrapper flex justify-center">
+      <ngx-gallery
+        [options]="galleryOptions"
+        [images]="galleryImages"
+        class="ngx-gallery"
+      ></ngx-gallery>
+    </div>
+  </div>
+</div>
