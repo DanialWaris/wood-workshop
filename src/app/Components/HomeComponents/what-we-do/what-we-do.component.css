@@ -1,0 +1,29 @@
+:host {
+  display: block;
+  height: 100%;
+  position: relative;
+  right: 0 !important;
+  -webkit-transition: left 0.4s ease-out;
+  transition: left 0.4s ease-out;
+}
+:host /deep/.slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 100%;
+}
+hs-slide {
+  margin: auto 10px;
+}
+.desc, .title{
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.left-tab{
+    left: 63rem;
+}
+.slider-div{
+    margin-top: 6rem;
+}

@@ -1,0 +1,13 @@
+.main{
+    background-image: url("http://designarc.biz/demos/wood-workshop/images/expreence/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.img{
+    box-shadow: -10px 10px 0 0 #c16717;
+}
+.heading{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 1px;
+}

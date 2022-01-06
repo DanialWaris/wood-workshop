@@ -1,0 +1,46 @@
+li a {
+  color: #d3c2ae;
+  cursor: pointer;
+}
+li a:hover {
+  color: #c89551;
+}
+@media screen and (min-width: 766px) {
+  .nav-div {
+    background: rgba(19, 16, 14, 0.8);
+  }
+}
+.social-div {
+  color: white;
+}
+.social-div i:hover {
+  color: #c89551;
+}
+.contact-icon:hover {
+  color: #c89551;
+}
+@media screen and (max-width: 766px) {
+  .main {
+    background: rgba(19, 16, 14, 0.8);
+  }
+}
+.menu-box {
+  background: rgba(19, 16, 14, 0.8);
+}
+
+.nav-show {
+  top: 9rem;
+  right: 0;
+  z-index: 1000;
+}
+.nav-hide {
+  top: -1000px;
+  right: 0;
+}
+@media screen and (max-width: 472px) {
+  .nav-show {
+    top: 11rem;
+    right: 0;
+    z-index: 1000;
+  }
+}

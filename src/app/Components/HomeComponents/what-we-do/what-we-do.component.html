@@ -1,0 +1,33 @@
+<div class="main py-5 bg-gray_100">
+  <div class="container">
+    <div class="mb-10">
+      <h1 class="font-bold text-2xl">WHAT WE DO</h1>
+      <div class=" w-20 border-b-3 rounded-full border-yellow_700 my-3"></div>
+    </div>
+
+    <div class="slider-div">
+      <horizontal-slider
+        class="flex justify-center gap-x-4"
+        [xs-visible-slides]="xsSlides"
+        [sm-visible-slides]="smSlides"
+        [md-visible-slides]="mdSlides"
+        [lg-visible-slides]="lgSlides"
+      >
+        <hs-nav-left class="text-sm bg-yellow_600 text-white py-1 px-2 bg-opacity-75 sm:absolute -top-52 3xl:-top-60 left-10"><i class="fa fa-chevron-left"></i></hs-nav-left>
+        <hs-nav-right class="text-sm bg-yellow_600 text-white py-1 px-2 bg-opacity-75 sm:absolute -top-52 3xl:-top-60 right-12"><i class="fa fa-chevron-right"></i></hs-nav-right>
+
+        <hs-slide *ngFor="let item of items" class="">
+          <div class="flex flex-col gap-y-5">
+            <img
+              [src]="item.img"
+            />
+            <div class="flex flex-col gap-y-3">
+                <h1 class="title text-xl">{{item.title}}</h1>
+                <span class="desc text-gray_400 text-sm">{{item.desc}}</span>
+            </div>
+          </div>
+        </hs-slide>
+      </horizontal-slider>
+    </div>
+  </div>
+</div>
