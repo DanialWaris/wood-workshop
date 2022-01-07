@@ -14,6 +14,9 @@ import { WhatWeDoComponent } from 'src/app/Components/HomeComponents/what-we-do/
 import { LatestProjectsComponent } from './../../Components/HomeComponents/latest-projects/latest-projects.component'
 // import { NgxGalleryModule } from 'ngx-gallery';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
+import { AvailabilityComponent } from 'src/app/Components/HomeComponents/availability/availability.component';
+import { ClientSayingsComponent } from './../../Components/HomeComponents/client-sayings/client-sayings.component'
+import { LatestNewsComponent } from 'src/app/Components/HomeComponents/latest-news/latest-news.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +25,9 @@ import { NgxGalleryModule } from '@kolkov/ngx-gallery';
     ExperienceComponent,
     WhatWeDoComponent,
     LatestProjectsComponent,
+    AvailabilityComponent,
+    ClientSayingsComponent,
+    LatestNewsComponent,
   ],
   imports: [
     HorizontalSliderModule,

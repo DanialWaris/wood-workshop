@@ -36,12 +36,7 @@
       <ul
         class="hidden lg:flex items-center gap-x-6 pl-4 lg:pr-24 xl:pr-36 2xl:pr-40 py-2 border-l-1 border-t-1 border-b-1 border-yellow_600 border-opacity-25"
       >
-        <li class="text-sm font-semibold"><a>HOME</a></li>
-        <li class="text-sm font-semibold"><a>ABOUT US</a></li>
-        <li class="text-sm font-semibold"><a>SERVICES</a></li>
-        <li class="text-sm font-semibold"><a>PROJECTS</a></li>
-        <li class="text-sm font-semibold"><a>PAGES</a></li>
-        <li class="text-sm font-semibold"><a>CONTACT US</a></li>
+        <li *ngFor="let data of tabsData" class="text-sm font-semibold"><a (click)="routingFunc(data.path)">{{data.name}}</a></li>
       </ul>
       <div
         class="flex justify-end lg:hidden pr-4 lg:pr-24 xl:pr-36 2xl:pr-40 py-2"

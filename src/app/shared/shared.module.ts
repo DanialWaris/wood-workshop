@@ -10,13 +10,17 @@ import 'hammerjs'
 import 'mousetrap'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 // services
-import { NavbarComponent } from './components/navbar/navbar.component'
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component'
+import { AboutHeaderComponent } from './components/about-header/about-header.component'
 // Directives
 
 @NgModule({
   declarations: [
     FullLayoutComponent,
     NavbarComponent,
+    FooterComponent,
+    AboutHeaderComponent,
   ],
   imports: [
     CommonModule,
@@ -25,7 +29,9 @@ import { NavbarComponent } from './components/navbar/navbar.component'
     NgbModule,
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    FooterComponent,
+    AboutHeaderComponent,
   ],
   providers: [
     {

@@ -1,0 +1,31 @@
+.right-div {
+  background-image: url('http://designarc.biz/demos/wood-workshop/images/great-work/right-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  object-fit:fill;
+}
+.contact-icon {
+  color: white;
+}
+.contact-icon:hover {
+  color: #c89551;
+}
+
+.main2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url('http://designarc.biz/demos/wood-workshop/images/footer/footer-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.footer-text {
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+}
+.social-icons i {
+  color: white;
+}
+.social-icons i:hover {
+  color: #c89551;
+}

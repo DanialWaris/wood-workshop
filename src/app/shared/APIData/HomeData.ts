@@ -83,3 +83,51 @@ export const latestProjectsData = [
   'Furniture Manufacturing',
   'Repairing',
 ]
+
+export const clentSayingData: any = [
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/3.jpg',
+  },
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/4.jpg',
+  },
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/5.jpg',
+  },
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/6.jpg',
+  },
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/1.jpg',
+  },
+  {
+    name: 'John Michel',
+    desc:
+      'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quae rat voluptatem.',
+    img: 'http://designarc.biz/demos/wood-workshop/images/testimonial/2.jpg',
+  },
+]
+
+
+
+export const latestNEwsData:any = [
+  {
+    title: "Wood Work Adds Value to Your Property",
+    desc: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa nt ium dolor emque laudantium totam."
+  }
+]

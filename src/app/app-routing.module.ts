@@ -6,6 +6,7 @@ import { FullLayoutComponent } from './shared/components/layout/full-layout/full
 import { full } from './shared/routes/full.routes'
 // import { AdminGuard } from './shared/guard/admin.guard'
 import { HomeComponent } from './Pages/home/home.component'
+import { AboutUsComponent } from './Pages/about-us/about-us.component'
 const routes: Routes = [
   {
     path: '',
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
+  },
+  {
+    path: 'about-us',
+    component: AboutUsComponent,
   },
   {
     path: '',
