@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core'
-import { clentSayingData } from './../../../shared/APIData/HomeData'
+import { clentSayingData } from './../../APIData/HomeData'
 @Component({
   selector: 'app-client-sayings',
   templateUrl: './client-sayings.component.html',

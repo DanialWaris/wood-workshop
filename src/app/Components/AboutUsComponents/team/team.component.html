@@ -1,0 +1,22 @@
+<div class="main">
+  <div class="container py-5">
+    <div class="mb-10">
+      <h1 class="font-bold text-2xl">OUR DEDICATED TEAM</h1>
+      <div class="w-20 border-b-3 rounded-full border-yellow_700 my-3"></div>
+    </div>
+    <div class="grid grid-cols-12 gap-x-4 gap-y-4 items-end">
+      <div
+        *ngFor="let data of teamData"
+        class="team col-span-12 sm:col-span-6 md:col-span-3"
+      >
+        <div class="team-image flex items-end justify-center">
+          <img [src]="data.img" />
+        </div>
+        <div class="team-content text-center bg-yellow_600 py-3">
+          <a class="text-white text-lg">{{ data.name }}</a>
+          <p class="text-sm text-white">{{ data.role }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

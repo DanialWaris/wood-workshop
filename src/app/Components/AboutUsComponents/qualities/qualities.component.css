@@ -1,0 +1,28 @@
+/* .left-div {
+  background-image: url('http://designarc.biz/demos/wood-workshop/images/features/1.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
+img{
+    vertical-align: middle;
+    text-align: right;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+.right-div {
+  background-image: linear-gradient(
+      rgba(66, 40, 12, 0.8),
+      rgba(54, 33, 10, 0.8)
+    ),
+    url('http://designarc.biz/demos/wood-workshop/images/features/2.jpg');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* width: -webkit-calc(50% + 210px); */
+  width: 100%;
+  float: left;
+  position: relative;
+}

@@ -13,6 +13,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component'
 import { AboutHeaderComponent } from './components/about-header/about-header.component'
+import { ClientSayingsComponent } from './components/client-sayings/client-sayings.component'
+import { HorizontalSliderModule } from 'angular2-horizontal-slider'
+
 // Directives
 
 @NgModule({
@@ -21,9 +24,11 @@ import { AboutHeaderComponent } from './components/about-header/about-header.com
     NavbarComponent,
     FooterComponent,
     AboutHeaderComponent,
+    ClientSayingsComponent,
   ],
   imports: [
     CommonModule,
+    HorizontalSliderModule,
     RouterModule,
     FormsModule,
     NgbModule,
@@ -32,6 +37,7 @@ import { AboutHeaderComponent } from './components/about-header/about-header.com
     NavbarComponent,
     FooterComponent,
     AboutHeaderComponent,
+    ClientSayingsComponent,
   ],
   providers: [
     {

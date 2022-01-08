@@ -10,14 +10,20 @@
   object-fit: contain;
   /* color: hsl(31, 72%, 8%); */
 }
-.left-div {
+/* .left-div {
   background-image: url('http://designarc.biz/demos/wood-workshop/images/workshop/work.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: 100% 100%; */
   object-fit: cover;
   width: 100%;
   height: 25rem;
+} */
+.left-img {
+  vertical-align: middle;
+  text-align: right;
+  border: 0;
+  height: 100%;
+  width: 100%;
 }
 @media screen and (max-width: 1024px) {
   .left-div {
@@ -27,8 +33,8 @@
 }
 
 @media screen and (max-width: 660px) {
-    .left-div {
-      background-size: auto;
-      object-fit: cover;
-    }
+  .left-div {
+    background-size: auto;
+    object-fit: cover;
   }
+}

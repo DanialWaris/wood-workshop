@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
-import { HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http'
 import { HomeRoutingModule } from './home-routing.module'
 import { HomeComponent } from './home.component'
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
@@ -13,10 +13,9 @@ import { ExperienceComponent } from './../../Components/HomeComponents/experienc
 import { WhatWeDoComponent } from 'src/app/Components/HomeComponents/what-we-do/what-we-do.component'
 import { LatestProjectsComponent } from './../../Components/HomeComponents/latest-projects/latest-projects.component'
 // import { NgxGalleryModule } from 'ngx-gallery';
-import { NgxGalleryModule } from '@kolkov/ngx-gallery';
-import { AvailabilityComponent } from 'src/app/Components/HomeComponents/availability/availability.component';
-import { ClientSayingsComponent } from './../../Components/HomeComponents/client-sayings/client-sayings.component'
-import { LatestNewsComponent } from 'src/app/Components/HomeComponents/latest-news/latest-news.component';
+import { NgxGalleryModule } from '@kolkov/ngx-gallery'
+import { AvailabilityComponent } from 'src/app/Components/HomeComponents/availability/availability.component'
+import { LatestNewsComponent } from 'src/app/Components/HomeComponents/latest-news/latest-news.component'
 
 @NgModule({
   declarations: [
@@ -26,7 +25,6 @@ import { LatestNewsComponent } from 'src/app/Components/HomeComponents/latest-ne
     WhatWeDoComponent,
     LatestProjectsComponent,
     AvailabilityComponent,
-    ClientSayingsComponent,
     LatestNewsComponent,
   ],
   imports: [

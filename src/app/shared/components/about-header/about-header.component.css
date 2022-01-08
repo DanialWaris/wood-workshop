@@ -1,7 +1,27 @@
 .main{
     background-image: url("http://designarc.biz/demos/wood-workshop/images/about/banner.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    object-fit: contain;
+    background-position: center;
+    background-size: cover;
+    /* object-fit: contain; */
     height: 50vh;
+}
+.title{
+    border: 1px solid #F59E0B;
+    border-style: dashed;
+}
+@media screen and (max-width: 1024px) {
+    .main{
+        height: 30vh;
+    }
+}
+@media screen and (max-width: 766px) {
+    .main{
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 575px) {
+    .main{
+        height: 15vh;
+    }
 }

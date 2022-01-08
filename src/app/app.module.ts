@@ -11,9 +11,11 @@ import { IgxDatePickerModule } from 'igniteui-angular';
 // import { NguiMapModule } from '@ngui/map';
 // import { NgApexchartsModule } from "ng-apexcharts";
 import { HorizontalSliderModule } from "angular2-horizontal-slider";
+import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 @NgModule({
   declarations: [
     AppComponent,
+    ContactUsComponent,
   ],
   imports: [
     // NgApexchartsModule,
