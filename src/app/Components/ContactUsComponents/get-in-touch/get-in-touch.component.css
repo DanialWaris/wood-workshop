@@ -1,0 +1,23 @@
+.icon-div {
+  vertical-align: middle;
+}
+.icon-link {
+  color: #e1ba60;
+  border: 1px solid #e1ba60;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+@media screen and (max-width: 575px) {
+  .icon-link {
+    width: 30px;
+    height: 30px;
+  }
+}
+.contact-text {
+  display: inline-block;
+  word-wrap: break-word;
+}
+.address-item {
+  /* overflow:hidden; */
+}

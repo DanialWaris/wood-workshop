@@ -51,13 +51,7 @@
           [ngClass]="showNav ? 'nav-show' : 'nav-hide'"
           class="flex flex-col items-center gap-y-6 absolute w-full duration-700 mx-auto menu-box py-4"
         >
-          <li class="text-sm font-semibold"><a>HOME</a></li>
-          <li class="text-sm font-semibold"><a>ABOUT US</a></li>
-          <li class="text-sm font-semibold"><a>SERVICES</a></li>
-          <li class="text-sm font-semibold"><a>PROJECTS</a></li>
-          <li class="text-sm font-semibold"><a>PAGES</a></li>
-          <li class="text-sm font-semibold"><a>Blogs</a></li>
-          <li class="text-sm font-semibold"><a>CONTACT US</a></li>
+          <li *ngFor="let data of tabsData"  class="text-sm font-semibold"><a (click)="routingFunc(data.path)">{{data.name}}</a></li>
         </ul>
       </div>
     </div>

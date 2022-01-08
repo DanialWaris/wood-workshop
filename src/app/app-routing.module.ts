@@ -7,6 +7,7 @@ import { full } from './shared/routes/full.routes'
 // import { AdminGuard } from './shared/guard/admin.guard'
 import { HomeComponent } from './Pages/home/home.component'
 import { AboutUsComponent } from './Pages/about-us/about-us.component'
+import { ContactUsComponent } from './Pages/contact-us/contact-us.component'
 const routes: Routes = [
   {
     path: '',
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'about-us',
     component: AboutUsComponent,
+  },
+  {
+    path: 'contact-us',
+    component: ContactUsComponent,
   },
   {
     path: '',

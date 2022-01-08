@@ -1,0 +1,55 @@
+<div class="main">
+  <div class="container py-5">
+    <div class="mb-10">
+      <h1 class="font-bold text-2xl">GET IN TOUCH</h1>
+      <div class="w-20 border-b-3 rounded-full border-yellow_700 my-3"></div>
+    </div>
+    <p class="text-md text-gray_500">
+      If you are interested in finding out more about how we can help your
+      organization, please fill out the form below. you can call us anytime
+      between 4 A.M. to 2 P. M. GMT
+    </p>
+    <div class="grid grid-cols-12 mt-8 lg:gap-x-8 gap-y-8 lg:gap-y-0">
+      <div class="col-span-12 sm:col-span-8 md:col-span-6 lg:col-span-4 flex flex-col gap-y-10">
+        <div
+          *ngFor="let data of addressData"
+          class="address-item flex items-center py-2 gap-x-4 sm:gap-x-8"
+        >
+          <div class="icon-div">
+            <a
+              class="icon-link border-1 border-yellow_600 border-opacity-50 rounded-full flex justify-center items-center"
+            >
+              <i [ngClass]="data.icon" class="text-xl sm:text-3xl"></i>
+            </a>
+          </div>
+          <p class="contact-text text-md text-gray_500">{{ data.desc }}</p>
+        </div>
+      </div>
+      <div class="col-span-12 lg:col-span-8 flex flex-col gap-y-6">
+        <input
+          type="text"
+          placeholder="Name"
+          class="px-4 py-3 border-1 border-gray_100 sm:w-full"
+        />
+        <input
+          type="email"
+          placeholder="Email"
+          class="px-4 py-3 border-1 border-gray_100 sm:w-full"
+        />
+        <input
+          type="text"
+          placeholder="Subject"
+          class="px-4 py-3 border-1 border-gray_100 sm:w-full"
+        />
+        <textarea
+          rows="10"
+          placeholder="Message"
+          class="px-4 py-3 border-1 border-gray_100 sm:w-full"
+        ></textarea>
+        <div class="text-yellow_700 flex justify-start">
+            <button class="duration-300 hover:bg-yellow_600 border-1 border-yellow_600 px-4 py-2 hover:text-black">SUBMIT NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

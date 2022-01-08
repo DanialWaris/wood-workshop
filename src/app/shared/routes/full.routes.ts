@@ -15,4 +15,11 @@ export const full: Routes = [
         (m) => m.AboutUsModule,
       ),
   },
+  {
+    path: 'contact-us',
+    loadChildren: () =>
+      import('./../../Pages/contact-us/contact-us.module').then(
+        (m) => m.ContactUsModule,
+      ),
+  },
 ]

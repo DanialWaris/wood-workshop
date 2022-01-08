@@ -14,7 +14,7 @@ export class NavbarComponent implements OnInit {
     { name: 'SERVICES', path: '' },
     { name: 'PROJECT', path: '' },
     { name: 'PAGES', path: '' },
-    { name: 'CONTACT US', path: '' },
+    { name: 'CONTACT US', path: '/contact-us' },
   ]
   constructor(public router: Router) {}
 
